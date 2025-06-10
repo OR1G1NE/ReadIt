@@ -1,0 +1,27 @@
+# Requirements pour l'application OCR Voice
+# Installation: pip install -r requirements.txt
+
+# Interface utilisateur
+kivy>=2.1.0
+kivymd>=1.1.0  # Optionnel, pour Material Design
+
+# Vision et OCR
+opencv-python>=4.7.0
+pytesseract>=0.3.10
+Pillow>=9.5.0
+
+# Synthèse vocale
+pyttsx3>=2.90  # Pour desktop
+plyer>=2.1.0   # Pour mobile et TTS cross-platform
+
+# Utilitaires
+numpy>=1.21.0  # Requis par OpenCV
+pathlib2>=2.3.7  # Compatibilité Python
+
+# Développement et packaging
+buildozer>=1.4.0  # Pour packaging Android
+cython>=0.29.0    # Requis par Buildozer
+
+# Optionnel: amélioration OCR
+scikit-image>=0.19.0  # Préprocessing d'images avancé
+easyocr>=1.6.0        # Alternative à Tesseract
